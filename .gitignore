@@ -1,0 +1,32 @@
+# 忽略所有的檔案
+*
+
+# 但不要忽略資料夾本身與這份過濾清單
+!.gitignore
+
+# 唯獨允許 (Allow) .cpp 檔案上傳
+# 不包含子資料夾內的 .cpp
+# =========================
+!/*.cpp
+
+!/*.c
+# 如果你想保留 README.md
+!README.md
+!CMakeLists.txt
+!AGENTS.md
+!Alearning_log.md
+!CLAUDE.md
+#忽略
+!.clangd
+
+
+
+# 編譯產物不要上傳
+*.exe
+*.o
+*.obj
+*.out
+*.dll
+*.lib
+*.a
+
